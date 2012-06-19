@@ -12,6 +12,9 @@
 
   <remote name="github"
         fetch="git://github.com/" /> 
+        
+  <remote name="reduxd"
+        fetch="git://github.com/reduxd2" /> 
 
   <remote name="kejar31"
         fetch="git://github.com/kejar31/" />
@@ -60,6 +63,9 @@
   <project path="device/samsung/p4-common" name="android_device_samsung_p4-common" remote="gummy" revision="ics" />
   <project path="device/moto/wingray/" name="android_device_moto_wingray" remote="gummy" revision="ics" />
   <project path="device/moto/stingray/" name="android_device_moto_stingray" remote="gummy" revision="ics" />
+  
+  <project path="device/htc/jewel/" name="android_device_htc_jewel" remote="reduxd" revision="ics" />
+  
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -286,6 +292,9 @@
   <project path="vendor/Gummy" name="vendor_Gummy" remote="gummy" revision="master" />
   <project path="vendor/Gummy/bot" name="pseudo_buildbot" remote="gummy" revision="master" />
   <project path="vendor/amazon/otter" name="KFire-Android/android_vendor_amazon_otter" remote="github" revision="ics" />
+
+  <project path="vendor/htc/jewel" name="vendor_htc_jewel" remote="reduxd" revision="ics" />
+
 
   <project path="external/busybox" name="android_external_busybox.git" remote="cm" revision="ics" />
   <project path="system/su" name="system_su" remote="gummy" revision="master" />
